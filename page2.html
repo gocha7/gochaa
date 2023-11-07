@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Website</title>
+    <link rel="stylesheet" href="page2.css">
+</head>
+<body>
+<!-- ___________________________________________  header ____________________________________________ -->
+    <header>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <div class="logo">LOGO</div>
+        <nav id="navbar">
+            <ul>
+                <li class="nav-logo">LOGO</li>
+                <li><a href="page1.html" class="nav-link"><img src="./images/home.png" alt=""> HOME</a></li>
+                <li><a href="page2.html" class="nav-link"><img src="./images/discover.png" alt=""> DISCOVERY</a></li>
+                <li><a href="index.html" class="nav-link"><img src="./images/photos.png" alt=""> PHOTOS</a></li>
+                <li><a href="#" class="nav-link"><img src="./images/mail.png" alt=""> CONTACT</a></li>
+                <li class="nav-item profile"><a href="#" class="nav-link"><img src="./images/imageSmall.png" alt=""> PROFILE</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="profile-popup" class="profile-popup">
+      <div class="popup-content">
+          <span class="close">&times;</span>
+          <img src="./images/imageBig.png" alt="News Image" class="slide-image">
+      </div>
+  </div>
+
+<!-- ___________________________________________  world news ____________________________________________ -->
+       
+<section class="worldnews"> 
+     <section class="hero">
+        <section class="hero1">
+            <h1>WORLD NEWS</h1>
+            <p>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto vidit.</p>
+            <div class="profile-image">
+                <img src="./images/avatar.png" alt="Profile Image">
+            </div>
+        </section>
+    </section>
+
+    <div class="search-container">
+        <form class="search-form">
+            <div class="form-group">
+                <h1 class="textforbox">Select a date</h1>
+                <select id="date-select" class="form-control">
+                    <option value="" disabled selected>Select...</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <h1 class="textforbox">Enter the first keywords</h1>
+                <input type="text" id="keyword-input" class="form-control" placeholder="">
+            </div>
+            
+            <button type="submit" class="search-button">SEARCH</button>
+        </form>
+    </div>
+</section>   
+<!-- ____________________________________________  article 1 ____________________________________________ -->
+
+<section class="article1">
+    <div class="imageTitle">
+    <img src="./images/avatar.png" alt="avatar Image" class="avatarImage">
+    <h1 class="articleTitle">Phasellus eu nulla malesuada, luctus diam.</h1>
+    </div>
+    <div class="texts">
+        <p class="articleText"> Dignissim rutrum ridiculus lacinia phasellus torquent ad aliquet, nisi dictum cubilia class habitasse commodo, semper potenti nec ac per egestas. Ac volutpat ullamcorper phasellus montes sollicitudin litora ridiculus mi conubia inceptos euismod odio curabitur, tortor eros porta venenatis facilisis quam blandit in ut lobortis consequat justo. Hac libero quisque tortor conubia iaculis </p>
+        <p class="articleText"> Nascetur himenaeos morbi gravida porta sapien justo aliquam pellentesque dapibus curae, cursus ultrices suspendisse cras ligula id aenean vulputate taciti, eleifend eros bibendum scelerisque lobortis venenatis nulla tristique tempus. Quisque eleifend vulputate. <br> 🕐 2 min ago</p>
+    
+    </div>
+</section>
+
+
+<!-- ___________________________________________  article 2 ____________________________________________ -->
+<section class="article2">
+    <img src="./images/page2image2.png" alt="content Image" class="contentImage">
+    <p class="article2Text"> Lorem ipsum dolor sit amet consectetur adipiscing elit sodales primis, mollis viverra conubia ligula inceptos laoreet libero tortor, nascetur non habitasse iaculis tempor nec egestas fames augue, platea porta integer nostra curae sed arcu. Nec ut diam vulputate ante scelerisque ridiculus lobortis orci mi curae himenaeos quis, senectus curabitur ullamcorper a porttitor nibh fermentum nisi cum morbi aliquam. Vitae pretium vestibulum dui gravida in potenti interdum, class rhoncus neque eget magna at </p>
+    <p class="article2Text"> Ullamcorper porttitor non pharetra cursus nisl mollis pellentesque primis penatibus platea, dictum himenaeos eget mi bibendum ad molestie aliquet curae quis quisque, nunc duis ac at elementum dui integer viverra tempus. Lacinia bibendum diam senectus egestas nec molestie convallis aenean hac tempus, vivamus purus congue euismod fringilla cursus donec est eu blandit platea, feugiat vitae netus orci habitant accumsan placerat morbi nostra.. </p>
+    <p class="article2Text1"> In hac habitasse platea dictumst. Sed nec venenatis odio. Nulla faucibus ipsum sed faucibus accumsan. Donec rhoncus luctus.. </p>
+    <div class="likePageNumerations">
+        <p class="numbers"> 01 </p>
+        <p class="numbers"> 02 </p>
+        <p class="numbers"> 03 </p>
+        <p class="numbers"> 04 </p>
+        <p class="numbers"> 05 </p>
+        <p class="numbers"> 06 </p>
+        <p class="numbers"> ⋯ </p>
+    </div>
+
+</section>
+
+
+<!-- ___________________________________________  footer ____________________________________________ -->
+
+<footer id="footer">
+    <div class="footer-content">
+        <div class="footer_firstpart">
+        <div class="logo_footer">LOGO</div>
+        <div class="footer-columns">
+            <div class="footer-column-special">
+            <a href="#">HOME</a>
+            <a href="#">DISCOVERY</a>
+            <a href="#">PHOTOS</a>
+            <a href="#">CONTACT</a>
+            </div>
+            <div class="footer-column">
+            <a href="#">ABOUT</a>
+            <a href="#">TESTIMONIALS</a>
+            <a href="#">HELP</a>
+            <a href="#">ADVERTISE</a>
+            </div>
+            <div class="footer-column">
+            <a href="#">TERMS</a>
+            <a href="#">INTEGRATIONS</a>
+            <a href="#">GUIDLINES</a>
+            <a href="#">CAREERS</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer_secondpart">
+        <div class="footer_section_box">
+            <div class="search-box">
+                <input type="text" placeholder="Email" aria-label="Email">
+                <button type="submit" class="arrow-button"></button>
+            </div>
+            <p class="footer-text">Stay in touch with us for the freshest products!</p>
+        </div>
+        
+        
+        <div class="footer-social">
+            <a href="#"><img src="./images/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="./images/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="./images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="./images/path.png" alt="Path"></a>
+        </div>
+        </div>
+    </div>
+</footer>
+    
+<script src="HeaderFooter.js"></script>
+<script src="trending.js"></script>
+
+</body>
+</html>
